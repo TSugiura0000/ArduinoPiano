@@ -19,6 +19,7 @@ namespace ArduinoMonitor_ver001
             InitializeComponent();
             br = new SolidBrush(Color.Gray);
             pen = new Pen(br);
+            pen.Width *= 3;
             BackColor = SystemColors.ActiveCaptionText;
             Paint += new PaintEventHandler(DrawLine01_Paint);
             SizeChanged += new EventHandler(Form2_SizeChanged);
@@ -32,12 +33,15 @@ namespace ArduinoMonitor_ver001
         void DrawLine01_Paint(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
-            Point pt1 = new Point(ClientSize.Width * 2 / 5, 0);     //左ラインの上の座標
-            Point pt2 = new Point(ClientSize.Width / 6,ClientSize.Height);  //左ラインの下の座標
-            Point pt3 = new Point(ClientSize.Width * 3 / 5, 0);     //右ラインの上の座標
-            Point pt4 = new Point(ClientSize.Width * 5 / 6, ClientSize.Height); //右ラインの下の座標
-            g.DrawLine(pen,pt1, pt2);
-            g.DrawLine(pen,pt3,pt4);
+            Point ptLeftUp = new Point(ClientSize.Width * 2 / 5, 0);     //左ラインの上の座標
+            Point ptLeftDown = new Point(ClientSize.Width / 6,ClientSize.Height);  //左ラインの下の座標
+            Point ptRightUp = new Point(ClientSize.Width * 3 / 5, 0);     //右ラインの上の座標
+            Point ptRightDown = new Point(ClientSize.Width * 5 / 6, ClientSize.Height); //右ラインの下の座標
+            Point ptCenterUp = new Point(ClientSize.Width / 2, 0);  //センターラインの上の座標
+            Point ptCenterDown = new Point(ClientSize.Width / 2, ClientSize.Height);    //センターラインの下の座標
+            g.DrawLine(pen,ptLeftUp, ptLeftDown);       //右ラインの描画
+            g.DrawLine(pen,ptRightUp, ptRightDown);     //左ラインの描画
+            g.DrawLine(pen,ptCenterUp, ptCenterDown);   //センターラインの描画
         }
     }
 }
