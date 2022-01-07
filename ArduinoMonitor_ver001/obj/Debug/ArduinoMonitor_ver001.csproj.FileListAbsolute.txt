@@ -38,3 +38,15 @@ C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\Arduino
 C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.exe.config
 C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.exe
 C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.pdb
+C:\Users\sugit\Documents\C#\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.exe.config
+C:\Users\sugit\Documents\C#\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.exe
+C:\Users\sugit\Documents\C#\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.pdb
+C:\Users\sugit\Documents\C#\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csproj.AssemblyReference.cache
+C:\Users\sugit\Documents\C#\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csproj.SuggestedBindingRedirects.cache
+C:\Users\sugit\Documents\C#\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.Form1.resources
+C:\Users\sugit\Documents\C#\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.Form2.resources
+C:\Users\sugit\Documents\C#\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.Properties.Resources.resources
+C:\Users\sugit\Documents\C#\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csproj.GenerateResource.cache
+C:\Users\sugit\Documents\C#\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csproj.CoreCompileInputs.cache
+C:\Users\sugit\Documents\C#\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.exe
+C:\Users\sugit\Documents\C#\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.pdb
