@@ -39,6 +39,7 @@
             this.Name = "Form2";
             this.Text = "GameMonitor";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.SizeChanged += new System.EventHandler(this.Form2_SizeChanged);
             this.ResumeLayout(false);
 
         }
