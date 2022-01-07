@@ -49,6 +49,10 @@ namespace ArduinoMonitor_ver001
             Point pt4Down = new Point(ClientSize.Width * 22 / 36, ClientSize.Height);   //右2上の座標
             Point pt5Up = new Point(ClientSize.Width * 17 / 30, 0); //右1上の座標
             Point pt5Down = new Point(ClientSize.Width * 26 / 36, ClientSize.Height);   //右1下の座標
+            Point ptReadUpLeft = new Point(0, ClientSize.Height * 4 / 5 - ClientSize.Height / 20);
+            Point ptReadUpRight = new Point(ClientSize.Width, ClientSize.Height * 4 / 5 - ClientSize.Height / 20);
+            Point ptReadDownLeft = new Point(0, ClientSize.Height * 4 / 5 + ClientSize.Height / 20);
+            Point ptReadDownRight = new Point(ClientSize.Width, ClientSize.Height * 4 / 5 + ClientSize.Height / 20);
             g.DrawLine(pen,ptLeftUp, ptLeftDown);       //右ラインの描画
             g.DrawLine(pen,ptRightUp, ptRightDown);     //左ラインの描画
             g.DrawLine(pen2,ptCenterUp, ptCenterDown);   //センターラインの描画
@@ -56,6 +60,8 @@ namespace ArduinoMonitor_ver001
             g.DrawLine(pen2,pt2Up,pt2Down); //左2の描画
             g.DrawLine(pen2,pt4Up,pt4Down); 
             g.DrawLine(pen2,pt5Up,pt5Down);
+            g.DrawLine(pen2,ptReadUpLeft,ptReadUpRight);
+            g.DrawLine(pen2,ptReadDownLeft,ptReadDownRight);
         }
 
         private void button1_Click(object sender, EventArgs e)
