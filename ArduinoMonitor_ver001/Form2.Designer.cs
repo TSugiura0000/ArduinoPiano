@@ -28,29 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_startGame = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // button_startGame
             // 
-            this.button1.BackColor = System.Drawing.Color.PaleGreen;
-            this.button1.Font = new System.Drawing.Font("HGP創英角ﾎﾟｯﾌﾟ体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(72, 64);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 90);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Start";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button_startGame.BackColor = System.Drawing.Color.PaleGreen;
+            this.button_startGame.Font = new System.Drawing.Font("HGP創英角ﾎﾟｯﾌﾟ体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.button_startGame.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button_startGame.Location = new System.Drawing.Point(54, 51);
+            this.button_startGame.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_startGame.Name = "button_startGame";
+            this.button_startGame.Size = new System.Drawing.Size(106, 72);
+            this.button_startGame.TabIndex = 0;
+            this.button_startGame.Text = "Start";
+            this.button_startGame.UseVisualStyleBackColor = false;
+            this.button_startGame.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(600, 360);
+            this.Controls.Add(this.button_startGame);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.Text = "GameMonitor";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -61,6 +63,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_startGame;
     }
 }

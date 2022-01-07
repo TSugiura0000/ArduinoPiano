@@ -49,19 +49,19 @@ namespace ArduinoMonitor_ver001
             Point pt4Down = new Point(ClientSize.Width * 22 / 36, ClientSize.Height);   //右2上の座標
             Point pt5Up = new Point(ClientSize.Width * 17 / 30, 0); //右1上の座標
             Point pt5Down = new Point(ClientSize.Width * 26 / 36, ClientSize.Height);   //右1下の座標
-            Point ptReadUpLeft = new Point(0, ClientSize.Height * 4 / 5 - ClientSize.Height / 20);
-            Point ptReadUpRight = new Point(ClientSize.Width, ClientSize.Height * 4 / 5 - ClientSize.Height / 20);
-            Point ptReadDownLeft = new Point(0, ClientSize.Height * 4 / 5 + ClientSize.Height / 20);
-            Point ptReadDownRight = new Point(ClientSize.Width, ClientSize.Height * 4 / 5 + ClientSize.Height / 20);
+            Point ptReadUpLeft = new Point(0, ClientSize.Height * 4 / 5 - ClientSize.Height / 20);  //判定線の左上の座標
+            Point ptReadUpRight = new Point(ClientSize.Width, ClientSize.Height * 4 / 5 - ClientSize.Height / 20);  //判定線の右上の座標
+            Point ptReadDownLeft = new Point(0, ClientSize.Height * 4 / 5 + ClientSize.Height / 20);    //判定線の左下の座標
+            Point ptReadDownRight = new Point(ClientSize.Width, ClientSize.Height * 4 / 5 + ClientSize.Height / 20);    //判定線の右下の座標
             g.DrawLine(pen,ptLeftUp, ptLeftDown);       //右ラインの描画
             g.DrawLine(pen,ptRightUp, ptRightDown);     //左ラインの描画
             g.DrawLine(pen2,ptCenterUp, ptCenterDown);   //センターラインの描画
             g.DrawLine(pen2,pt1Up,pt1Down); //左1の描画
             g.DrawLine(pen2,pt2Up,pt2Down); //左2の描画
-            g.DrawLine(pen2,pt4Up,pt4Down); 
-            g.DrawLine(pen2,pt5Up,pt5Down);
-            g.DrawLine(pen2,ptReadUpLeft,ptReadUpRight);
-            g.DrawLine(pen2,ptReadDownLeft,ptReadDownRight);
+            g.DrawLine(pen2,pt4Up,pt4Down); //右2の描画
+            g.DrawLine(pen2,pt5Up,pt5Down); //右1の描画
+            g.DrawLine(pen2,ptReadUpLeft,ptReadUpRight);    //判定線上の描画
+            g.DrawLine(pen2,ptReadDownLeft,ptReadDownRight);    //判定線下の描画
         }
 
         private void button1_Click(object sender, EventArgs e)
