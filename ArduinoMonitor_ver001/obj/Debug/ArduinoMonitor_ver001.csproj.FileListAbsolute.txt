@@ -1,0 +1,40 @@
+C:\Users\shiwa\source\repos\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.exe.config
+C:\Users\shiwa\source\repos\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.exe
+C:\Users\shiwa\source\repos\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.pdb
+C:\Users\shiwa\source\repos\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csprojAssemblyReference.cache
+C:\Users\shiwa\source\repos\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.Form1.resources
+C:\Users\shiwa\source\repos\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.Properties.Resources.resources
+C:\Users\shiwa\source\repos\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csproj.GenerateResource.cache
+C:\Users\shiwa\source\repos\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csproj.CoreCompileInputs.cache
+C:\Users\shiwa\source\repos\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.exe
+C:\Users\shiwa\source\repos\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.pdb
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\preparations\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.exe.config
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\preparations\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.exe
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\preparations\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.pdb
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\preparations\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csprojAssemblyReference.cache
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\preparations\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.Form1.resources
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\preparations\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.Properties.Resources.resources
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\preparations\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csproj.GenerateResource.cache
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\preparations\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csproj.CoreCompileInputs.cache
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\preparations\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.exe
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\preparations\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.pdb
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\11_02_Dev_ArduinoMonitor\src\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.exe.config
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\11_02_Dev_ArduinoMonitor\src\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.exe
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\11_02_Dev_ArduinoMonitor\src\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.pdb
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\11_02_Dev_ArduinoMonitor\src\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csprojAssemblyReference.cache
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\11_02_Dev_ArduinoMonitor\src\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.Form1.resources
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\11_02_Dev_ArduinoMonitor\src\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.Properties.Resources.resources
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\11_02_Dev_ArduinoMonitor\src\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csproj.GenerateResource.cache
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\11_02_Dev_ArduinoMonitor\src\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csproj.CoreCompileInputs.cache
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\11_02_Dev_ArduinoMonitor\src\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.exe
+C:\Users\shiwa\OneDrive - 同志社大学\lecture\B_ComputerProgrammingI\2019\11_02_Dev_ArduinoMonitor\src\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.pdb
+C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csprojAssemblyReference.cache
+C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.Form1.resources
+C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.Properties.Resources.resources
+C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csproj.GenerateResource.cache
+C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.csproj.CoreCompileInputs.cache
+C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.exe
+C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\obj\Debug\ArduinoMonitor_ver001.pdb
+C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.exe.config
+C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.exe
+C:\Users\shiwa\Downloads\ArduinoMonitor_ver001 (1)\ArduinoMonitor_ver001\ArduinoMonitor_ver001\bin\Debug\ArduinoMonitor_ver001.pdb

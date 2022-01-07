@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{266A8F01-55E4-461B-BD4B-6F8F9024377A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ArduinoMonitor_ver001/Form1.cs">
+    <Files>
+      <File FileName="ArduinoMonitor_ver001/Form1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ArduinoMonitor_ver001" expanded="True">
+            <Node name="ArduinoMonitor_ver001" expanded="True">
+              <Node name="Form1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ArduinoMonitor__ver001 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
