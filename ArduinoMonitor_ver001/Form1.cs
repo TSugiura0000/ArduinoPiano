@@ -16,7 +16,7 @@ namespace ArduinoMonitor_ver001
 {
     public partial class Form1 : Form
     {
-        Form2 GameMonitor;
+        Form2 PianoMonitor;
 
         private ManualResetEvent IsNotReading = new ManualResetEvent(true);
         String[] separator_newline = new String[] { "\r\n" };   // ArduinoはのSerial.println()は改行コードがCR+LFになっている
@@ -26,7 +26,7 @@ namespace ArduinoMonitor_ver001
         {
             InitializeComponent();
             InitializeSerialComponent();
-            GameMonitor = new Form2();
+            PianoMonitor = new Form2();
         }
 
 
@@ -93,7 +93,7 @@ namespace ArduinoMonitor_ver001
 
                 label_serial_status.Text = "connected";
 
-                GameMonitor.Show();
+                PianoMonitor.Show();
             }
 
         }
