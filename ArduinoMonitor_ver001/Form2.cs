@@ -16,5 +16,9 @@ namespace ArduinoMonitor_ver001
         {
             InitializeComponent();
         }
+        private void Form2_SizeChanged_1(object sender, EventArgs e)
+        {
+            Invalidate();   //コントロールの再描画
+        }
     }
 }

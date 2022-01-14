@@ -38,6 +38,7 @@
             this.Name = "Form2";
             this.Text = "PianoMonitor";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.SizeChanged += new System.EventHandler(this.Form2_SizeChanged_1);
             this.ResumeLayout(false);
 
         }
