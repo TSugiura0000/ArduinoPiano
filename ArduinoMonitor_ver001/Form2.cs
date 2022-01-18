@@ -340,5 +340,109 @@ namespace ArduinoMonitor_ver001
         {
             return panel_B;
         }
+        public Label GetLabel()
+        {
+            return label_check;
+        }
+
+        private void label_check_TextChanged(object sender, EventArgs e)
+        {
+            if (label_check.Text == "C ON\r")
+            {
+                this.whitePanel_MouseDown(panel_C);
+            }
+            if (label_check.Text == "C OFF\r")
+            {
+                this.whitePanel_MouseUp(panel_C);
+            }
+            if (label_check.Text == "Csharp ON\r")
+            {
+                this.whitePanel_MouseDown(panel_Csharp);
+            }
+            if (label_check.Text == "Csharp OFF\r")
+            {
+                this.whitePanel_MouseUp(panel_Csharp);
+            }
+            if (label_check.Text == "D ON\r")
+            {
+                this.whitePanel_MouseDown(panel_D);
+            }
+            if (label_check.Text == "D OFF\r")
+            {
+                this.whitePanel_MouseUp(panel_D);
+            }
+            if (label_check.Text == "Dsharp ON\r")
+            {
+                this.whitePanel_MouseDown(panel_Dsharp);
+            }
+            if (label_check.Text == "Dsharp OFF\r")
+            {
+                this.whitePanel_MouseUp(panel_Dsharp);
+            }
+            if (label_check.Text == "E ON\r")
+            {
+                this.whitePanel_MouseDown(panel_E);
+            }
+            if (label_check.Text == "E OFF\r")
+            {
+                this.whitePanel_MouseUp(panel_E);
+            }
+            if (label_check.Text == "F ON\r")
+            {
+                this.whitePanel_MouseDown(panel_F);
+            }
+            if (label_check.Text == "F OFF\r")
+            {
+                this.whitePanel_MouseUp(panel_F);
+            }
+            if (label_check.Text == "Fsharp ON\r")
+            {
+                this.whitePanel_MouseDown(panel_Fsharp);
+            }
+            if (label_check.Text == "Fsharp OFF\r")
+            {
+                this.whitePanel_MouseUp(panel_Fsharp);
+            }
+            if (label_check.Text == "G ON\r")
+            {
+                this.whitePanel_MouseDown(panel_G);
+            }
+            if (label_check.Text == "G OFF\r")
+            {
+                this.whitePanel_MouseUp(panel_G);
+            }
+            if (label_check.Text == "Gsharp ON\r")
+            {
+                this.whitePanel_MouseDown(panel_Gsharp);
+            }
+            if (label_check.Text == "Gsharp OFF\r")
+            {
+                this.whitePanel_MouseUp(panel_Gsharp);
+            }
+            if (label_check.Text == "A ON\r")
+            {
+                this.whitePanel_MouseDown(panel_A);
+            }
+            if (label_check.Text == "A OFF\r")
+            {
+                this.whitePanel_MouseUp(panel_A);
+            }
+            if (label_check.Text == "Asharp ON\r")
+            {
+                this.whitePanel_MouseDown(panel_Asharp);
+            }
+            if (label_check.Text == "Asharp OFF\r")
+            {
+                this.whitePanel_MouseUp(panel_Asharp);
+            }
+            if (label_check.Text == "B ON\r")
+            {
+                this.whitePanel_MouseDown(panel_B);
+            }
+            if (label_check.Text == "B OFF\r")
+            {
+                this.whitePanel_MouseUp(panel_B);
+            }
+        }
     }
 }
