@@ -26,7 +26,7 @@ namespace ArduinoMonitor_ver001
         {
             InitializeComponent();
             InitializeSerialComponent();
-            PianoMonitor = new Form2();
+            PianoMonitor = new Form2(this);
         }
 
 
@@ -187,7 +187,7 @@ namespace ArduinoMonitor_ver001
             }
         }
 
-        private void Serial_send_msg(string msg)
+        public void Serial_send_msg(string msg)
         {
             try
             {

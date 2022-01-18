@@ -12,11 +12,13 @@ namespace ArduinoMonitor_ver001
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        Form1 f1;
+        public Form2(Form1 f)
         {
             InitializeComponent();
             Form2_Resize();
             Panel_Resize();
+            f1 = f;
         }
         private void Form2_SizeChanged_1(object sender, EventArgs e)
         {
@@ -149,6 +151,8 @@ namespace ArduinoMonitor_ver001
                 );
         }
 
+
+        //各白鍵の反応
         private void panel_C_MouseDown(object sender, MouseEventArgs e)
         {
             whitePanel_MouseDown(panel_C);
@@ -219,15 +223,83 @@ namespace ArduinoMonitor_ver001
             whitePanel_MouseUp(panel_B);
         }
 
+        //白鍵を押しているときの処理
         private void whitePanel_MouseDown(Panel p)
         {
             p.BackColor = Color.LightGray;
             p.BorderStyle = BorderStyle.FixedSingle;
         }
 
+        //白鍵を離したときの処理
         private void whitePanel_MouseUp(Panel p)
         {
             p.BackColor = Color.White;
+            p.BorderStyle = BorderStyle.Fixed3D;
+        }
+
+        //各黒鍵の反応
+        private void panel_Csharp_MouseDown(object sender, MouseEventArgs e)
+        {
+            blackPanel_MouseDown(panel_Csharp);
+        }
+
+        private void panel_Csharp_MouseUp(object sender, MouseEventArgs e)
+        {
+            blackPanel_MouseUp(panel_Csharp);
+        }
+
+        private void panel_Dsharp_MouseDown(object sender, MouseEventArgs e)
+        {
+            blackPanel_MouseDown(panel_Dsharp);
+        }
+
+        private void panel_Dsharp_MouseUp(object sender, MouseEventArgs e)
+        {
+            blackPanel_MouseUp(panel_Dsharp);
+        }
+
+        private void panel_Fsharp_MouseDown(object sender, MouseEventArgs e)
+        {
+            blackPanel_MouseDown(panel_Fsharp);
+        }
+
+        private void panel_Fsharp_MouseUp(object sender, MouseEventArgs e)
+        {
+            blackPanel_MouseUp(panel_Fsharp);
+        }
+
+        private void panel_Gsharp_MouseDown(object sender, MouseEventArgs e)
+        {
+            blackPanel_MouseDown(panel_Gsharp);
+        }
+
+        private void panel_Gsharp_MouseUp(object sender, MouseEventArgs e)
+        {
+            blackPanel_MouseUp(panel_Gsharp);
+        }
+
+        private void panel_Asharp_MouseDown(object sender, MouseEventArgs e)
+        {
+            blackPanel_MouseDown(panel_Asharp);
+        }
+
+        private void panel_Asharp_MouseUp(object sender, MouseEventArgs e)
+        {
+            blackPanel_MouseUp(panel_Asharp);
+        }
+
+        //黒鍵を押したときの処理
+        private void blackPanel_MouseDown(Panel p)
+        {
+            p.BackColor = Color.DimGray;
+            p.BorderStyle = BorderStyle.FixedSingle;
+            //f1.Serial_send_msg();
+        }
+
+        //黒鍵を離したときの処理
+        private void blackPanel_MouseUp(Panel p)
+        {
+            p.BackColor = Color.Black;
             p.BorderStyle = BorderStyle.Fixed3D;
         }
     }

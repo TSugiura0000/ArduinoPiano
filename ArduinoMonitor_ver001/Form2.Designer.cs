@@ -76,6 +76,8 @@
             this.panel_Asharp.Name = "panel_Asharp";
             this.panel_Asharp.Size = new System.Drawing.Size(67, 173);
             this.panel_Asharp.TabIndex = 1;
+            this.panel_Asharp.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_Asharp_MouseDown);
+            this.panel_Asharp.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel_Asharp_MouseUp);
             // 
             // panel_Gsharp
             // 
@@ -86,6 +88,8 @@
             this.panel_Gsharp.Name = "panel_Gsharp";
             this.panel_Gsharp.Size = new System.Drawing.Size(67, 173);
             this.panel_Gsharp.TabIndex = 1;
+            this.panel_Gsharp.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_Gsharp_MouseDown);
+            this.panel_Gsharp.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel_Gsharp_MouseUp);
             // 
             // panel_Fsharp
             // 
@@ -96,6 +100,8 @@
             this.panel_Fsharp.Name = "panel_Fsharp";
             this.panel_Fsharp.Size = new System.Drawing.Size(67, 173);
             this.panel_Fsharp.TabIndex = 1;
+            this.panel_Fsharp.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_Fsharp_MouseDown);
+            this.panel_Fsharp.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel_Fsharp_MouseUp);
             // 
             // panel_Dsharp
             // 
@@ -106,6 +112,8 @@
             this.panel_Dsharp.Name = "panel_Dsharp";
             this.panel_Dsharp.Size = new System.Drawing.Size(67, 173);
             this.panel_Dsharp.TabIndex = 1;
+            this.panel_Dsharp.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_Dsharp_MouseDown);
+            this.panel_Dsharp.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel_Dsharp_MouseUp);
             // 
             // panel_Csharp
             // 
@@ -116,6 +124,8 @@
             this.panel_Csharp.Name = "panel_Csharp";
             this.panel_Csharp.Size = new System.Drawing.Size(67, 173);
             this.panel_Csharp.TabIndex = 1;
+            this.panel_Csharp.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_Csharp_MouseDown);
+            this.panel_Csharp.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel_Csharp_MouseUp);
             // 
             // panel_B
             // 
