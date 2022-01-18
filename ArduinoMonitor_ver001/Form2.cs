@@ -51,11 +51,11 @@ namespace ArduinoMonitor_ver001
                 );
             //D
             panel_D.Location = new Point(
-                panel_Board.Width * ((panel_Board_horizontal_divid - 7) / 2 + 1) / panel_Board_horizontal_divid,
+                panel_Board.Width * ((panel_Board_horizontal_divid - 7) / 2 + 1) / panel_Board_horizontal_divid, 
                 panel_Board.Height * 2 / panel_Board_vertical_divid
                 );
             panel_D.Size = new Size(
-                panel_Board.Width / panel_Board_horizontal_divid,
+                panel_Board.Width / panel_Board_horizontal_divid, 
                 panel_Board.Height * (panel_Board_vertical_divid - 3) / panel_Board_vertical_divid
                 );
             //E
@@ -158,74 +158,61 @@ namespace ArduinoMonitor_ver001
         {
             whitePanel_MouseDown(panel_C);
         }
-
         private void panel_C_MouseUp(object sender, MouseEventArgs e)
         {
             whitePanel_MouseUp(panel_C);
         }
-
         private void panel_D_MouseDown(object sender, MouseEventArgs e)
         {
             whitePanel_MouseDown(panel_D);
         }
-
         private void panel_D_MouseUp(object sender, MouseEventArgs e)
         {
             whitePanel_MouseUp(panel_D);
         }
-
         private void panel_E_MouseDown(object sender, MouseEventArgs e)
         {
             whitePanel_MouseDown(panel_E);
         }
-
         private void panel_E_MouseUp(object sender, MouseEventArgs e)
         {
             whitePanel_MouseUp(panel_E);
         }
-
         private void panel_F_MouseDown(object sender, MouseEventArgs e)
         {
             whitePanel_MouseDown(panel_F);
         }
-
         private void panel_F_MouseUp(object sender, MouseEventArgs e)
         {
             whitePanel_MouseUp(panel_F);
         }
-
         private void panel_G_MouseDown(object sender, MouseEventArgs e)
         {
             whitePanel_MouseDown(panel_G);
         }
-
         private void panel_G_MouseUp(object sender, MouseEventArgs e)
         {
             whitePanel_MouseUp(panel_G);
         }
-
         private void panel_A_MouseDown(object sender, MouseEventArgs e)
         {
             whitePanel_MouseDown(panel_A);
         }
-
         private void panel_A_MouseUp(object sender, MouseEventArgs e)
         {
             whitePanel_MouseUp(panel_A);
         }
-
         private void panel_B_MouseDown(object sender, MouseEventArgs e)
         {
             whitePanel_MouseDown(panel_B);
         }
-
         private void panel_B_MouseUp(object sender, MouseEventArgs e)
         {
             whitePanel_MouseUp(panel_B);
         }
 
         //白鍵を押しているときの処理
-        private void whitePanel_MouseDown(Panel p)
+        public void whitePanel_MouseDown(Panel p)
         {
             string msg;
             p.BackColor = Color.LightGray;
@@ -235,7 +222,7 @@ namespace ArduinoMonitor_ver001
         }
 
         //白鍵を離したときの処理
-        private void whitePanel_MouseUp(Panel p)
+        public void whitePanel_MouseUp(Panel p)
         {
             string msg;
             p.BackColor = Color.White;
@@ -249,54 +236,45 @@ namespace ArduinoMonitor_ver001
         {
             blackPanel_MouseDown(panel_Csharp);
         }
-
         private void panel_Csharp_MouseUp(object sender, MouseEventArgs e)
         {
             blackPanel_MouseUp(panel_Csharp);
         }
-
         private void panel_Dsharp_MouseDown(object sender, MouseEventArgs e)
         {
             blackPanel_MouseDown(panel_Dsharp);
         }
-
         private void panel_Dsharp_MouseUp(object sender, MouseEventArgs e)
         {
             blackPanel_MouseUp(panel_Dsharp);
         }
-
         private void panel_Fsharp_MouseDown(object sender, MouseEventArgs e)
         {
             blackPanel_MouseDown(panel_Fsharp);
         }
-
         private void panel_Fsharp_MouseUp(object sender, MouseEventArgs e)
         {
             blackPanel_MouseUp(panel_Fsharp);
         }
-
         private void panel_Gsharp_MouseDown(object sender, MouseEventArgs e)
         {
             blackPanel_MouseDown(panel_Gsharp);
         }
-
         private void panel_Gsharp_MouseUp(object sender, MouseEventArgs e)
         {
             blackPanel_MouseUp(panel_Gsharp);
         }
-
         private void panel_Asharp_MouseDown(object sender, MouseEventArgs e)
         {
             blackPanel_MouseDown(panel_Asharp);
         }
-
         private void panel_Asharp_MouseUp(object sender, MouseEventArgs e)
         {
             blackPanel_MouseUp(panel_Asharp);
         }
 
         //黒鍵を押したときの処理
-        private void blackPanel_MouseDown(Panel p)
+        public void blackPanel_MouseDown(Panel p)
         {
             string msg;
             p.BackColor = Color.DimGray;
@@ -306,13 +284,61 @@ namespace ArduinoMonitor_ver001
         }
 
         //黒鍵を離したときの処理
-        private void blackPanel_MouseUp(Panel p)
+        public void blackPanel_MouseUp(Panel p)
         {
             string msg;
             p.BackColor = Color.Black;
             p.BorderStyle = BorderStyle.Fixed3D;
             msg = p.Name + " OFF";
             f1.Serial_send_msg(msg);
+        }
+        public Panel GetPanel_C()
+        {
+            return panel_C;
+        }
+        public Panel GetPanel_Csharp()
+        {
+            return panel_Csharp;
+        }
+        public Panel GetPanel_D()
+        {
+            return panel_D;
+        }
+        public Panel GetPanel_Dsharp()
+        {
+            return panel_Dsharp;
+        }
+        public Panel GetPanel_E()
+        {
+            return panel_E;
+        }
+        public Panel GetPanel_F()
+        {
+            return panel_F;
+        }
+        public Panel GetPanel_Fsharp()
+        {
+            return panel_Fsharp;
+        }
+        public Panel GetPanel_G()
+        {
+            return panel_G;
+        }
+        public Panel GetPanel_Gsharp()
+        {
+            return panel_Gsharp;
+        }
+        public Panel GetPanel_A()
+        {
+            return panel_A;
+        }
+        public Panel GetPanel_Asharp()
+        {
+            return panel_Asharp;
+        }
+        public Panel GetPanel_B()
+        {
+            return panel_B;
         }
     }
 }

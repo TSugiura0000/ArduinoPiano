@@ -17,6 +17,7 @@ namespace ArduinoMonitor_ver001
     public partial class Form1 : Form
     {
         Form2 PianoMonitor;
+        Panel C, Csharp, D, Dsharp, E, F, Fsharp, G, Gsharp, A, Asharp, B;
 
         private ManualResetEvent IsNotReading = new ManualResetEvent(true);
         String[] separator_newline = new String[] { "\r\n" };   // ArduinoはのSerial.println()は改行コードがCR+LFになっている
@@ -93,6 +94,18 @@ namespace ArduinoMonitor_ver001
                 label_serial_status.Text = "connected";
 
                 PianoMonitor = new Form2(this);
+                C = PianoMonitor.GetPanel_C();
+                Csharp = PianoMonitor.GetPanel_Csharp();
+                D = PianoMonitor.GetPanel_D();
+                Dsharp = PianoMonitor.GetPanel_Dsharp();
+                E = PianoMonitor.GetPanel_E();
+                F = PianoMonitor.GetPanel_F();
+                Fsharp = PianoMonitor.GetPanel_Fsharp();
+                G = PianoMonitor.GetPanel_G();
+                Gsharp = PianoMonitor.GetPanel_Gsharp();
+                A = PianoMonitor.GetPanel_A();
+                Asharp = PianoMonitor.GetPanel_Asharp();
+                B = PianoMonitor.GetPanel_B();
                 PianoMonitor.Show();
             }
 
@@ -128,6 +141,106 @@ namespace ArduinoMonitor_ver001
 
                 if (!string.IsNullOrEmpty(data))
                 {
+                    BeginInvoke((MethodInvoker)(() =>
+                    {
+                        if (data == "C ON")
+                        {
+                            PianoMonitor.whitePanel_MouseDown(C);
+                        }
+                        if (data == "C OFF")
+                        {
+                            PianoMonitor.whitePanel_MouseUp(C);
+                        }
+                        if (data == "Csharp ON")
+                        {
+                            PianoMonitor.whitePanel_MouseDown(Csharp);
+                        }
+                        if (data == "Csharp OFF")
+                        {
+                            PianoMonitor.whitePanel_MouseUp(Csharp);
+                        }
+                        if (data == "D ON")
+                        {
+                            PianoMonitor.whitePanel_MouseDown(D);
+                        }
+                        if (data == "D OFF")
+                        {
+                            PianoMonitor.whitePanel_MouseUp(D);
+                        }
+                        if (data == "Dsharp ON")
+                        {
+                            PianoMonitor.whitePanel_MouseDown(Dsharp);
+                        }
+                        if (data == "Dsharp OFF")
+                        {
+                            PianoMonitor.whitePanel_MouseUp(Dsharp);
+                        }
+                        if (data == "E ON")
+                        {
+                            PianoMonitor.whitePanel_MouseDown(E);
+                        }
+                        if (data == "E OFF")
+                        {
+                            PianoMonitor.whitePanel_MouseUp(E);
+                        }
+                        if (data == "F ON")
+                        {
+                            PianoMonitor.whitePanel_MouseDown(F);
+                        }
+                        if (data == "F OFF")
+                        {
+                            PianoMonitor.whitePanel_MouseUp(F);
+                        }
+                        if (data == "Fsharp ON")
+                        {
+                            PianoMonitor.whitePanel_MouseDown(Fsharp);
+                        }
+                        if (data == "Fsharp OFF")
+                        {
+                            PianoMonitor.whitePanel_MouseUp(Fsharp);
+                        }
+                        if (data == "G ON")
+                        {
+                            PianoMonitor.whitePanel_MouseDown(G);
+                        }
+                        if (data == "G OFF")
+                        {
+                            PianoMonitor.whitePanel_MouseUp(G);
+                        }
+                        if (data == "Gsharp ON")
+                        {
+                            PianoMonitor.whitePanel_MouseDown(Gsharp);
+                        }
+                        if (data == "Gsharp OFF")
+                        {
+                            PianoMonitor.whitePanel_MouseUp(Gsharp);
+                        }
+                        if (data == "A ON")
+                        {
+                            PianoMonitor.whitePanel_MouseDown(A);
+                        }
+                        if (data == "A OFF")
+                        {
+                            PianoMonitor.whitePanel_MouseUp(A);
+                        }
+                        if (data == "Asharp ON")
+                        {
+                            PianoMonitor.whitePanel_MouseDown(Asharp);
+                        }
+                        if (data == "Asharp OFF")
+                        {
+                            PianoMonitor.whitePanel_MouseUp(Asharp);
+                        }
+                        if (data == "B ON")
+                        {
+                            PianoMonitor.whitePanel_MouseDown(B);
+                        }
+                        if (data == "B OFF")
+                        {
+                            PianoMonitor.whitePanel_MouseUp(B);
+                        }
+                    }));
+
                     BeginInvoke((MethodInvoker)(() =>	// Form内コンポーネントの更新を受信とは別スレッドで処理
                     {
                         textBox_rcv_msg.AppendText(data + "\r\n");
