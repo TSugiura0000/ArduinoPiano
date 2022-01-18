@@ -148,5 +148,87 @@ namespace ArduinoMonitor_ver001
                 panel_Board.Height * (panel_Board_vertical_divid - 5) / panel_Board_vertical_divid
                 );
         }
+
+        private void panel_C_MouseDown(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseDown(panel_C);
+        }
+
+        private void panel_C_MouseUp(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseUp(panel_C);
+        }
+
+        private void panel_D_MouseDown(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseDown(panel_D);
+        }
+
+        private void panel_D_MouseUp(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseUp(panel_D);
+        }
+
+        private void panel_E_MouseDown(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseDown(panel_E);
+        }
+
+        private void panel_E_MouseUp(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseUp(panel_E);
+        }
+
+        private void panel_F_MouseDown(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseDown(panel_F);
+        }
+
+        private void panel_F_MouseUp(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseUp(panel_F);
+        }
+
+        private void panel_G_MouseDown(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseDown(panel_G);
+        }
+
+        private void panel_G_MouseUp(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseUp(panel_G);
+        }
+
+        private void panel_A_MouseDown(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseDown(panel_A);
+        }
+
+        private void panel_A_MouseUp(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseUp(panel_A);
+        }
+
+        private void panel_B_MouseDown(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseDown(panel_B);
+        }
+
+        private void panel_B_MouseUp(object sender, MouseEventArgs e)
+        {
+            whitePanel_MouseUp(panel_B);
+        }
+
+        private void whitePanel_MouseDown(Panel p)
+        {
+            p.BackColor = Color.LightGray;
+            p.BorderStyle = BorderStyle.FixedSingle;
+        }
+
+        private void whitePanel_MouseUp(Panel p)
+        {
+            p.BackColor = Color.White;
+            p.BorderStyle = BorderStyle.Fixed3D;
+        }
     }
 }
