@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -50,11 +51,11 @@ namespace ArduinoMonitor_ver001
                 );
             //D
             panel_D.Location = new Point(
-                panel_Board.Width * ((panel_Board_horizontal_divid - 7) / 2 + 1) / panel_Board_horizontal_divid, 
+                panel_Board.Width * ((panel_Board_horizontal_divid - 7) / 2 + 1) / panel_Board_horizontal_divid,
                 panel_Board.Height * 2 / panel_Board_vertical_divid
                 );
             panel_D.Size = new Size(
-                panel_Board.Width / panel_Board_horizontal_divid, 
+                panel_Board.Width / panel_Board_horizontal_divid,
                 panel_Board.Height * (panel_Board_vertical_divid - 3) / panel_Board_vertical_divid
                 );
             //E
@@ -226,15 +227,21 @@ namespace ArduinoMonitor_ver001
         //白鍵を押しているときの処理
         private void whitePanel_MouseDown(Panel p)
         {
+            string msg;
             p.BackColor = Color.LightGray;
             p.BorderStyle = BorderStyle.FixedSingle;
+            msg = p.Name + " ON";
+            f1.Serial_send_msg(msg);
         }
 
         //白鍵を離したときの処理
         private void whitePanel_MouseUp(Panel p)
         {
+            string msg;
             p.BackColor = Color.White;
             p.BorderStyle = BorderStyle.Fixed3D;
+            msg = p.Name + " OFF";
+            f1.Serial_send_msg(msg);
         }
 
         //各黒鍵の反応
@@ -291,16 +298,21 @@ namespace ArduinoMonitor_ver001
         //黒鍵を押したときの処理
         private void blackPanel_MouseDown(Panel p)
         {
+            string msg;
             p.BackColor = Color.DimGray;
             p.BorderStyle = BorderStyle.FixedSingle;
-            //f1.Serial_send_msg();
+            msg = p.Name + " ON";
+            f1.Serial_send_msg(msg);
         }
 
         //黒鍵を離したときの処理
         private void blackPanel_MouseUp(Panel p)
         {
+            string msg;
             p.BackColor = Color.Black;
             p.BorderStyle = BorderStyle.Fixed3D;
+            msg = p.Name + " OFF";
+            f1.Serial_send_msg(msg);
         }
     }
 }

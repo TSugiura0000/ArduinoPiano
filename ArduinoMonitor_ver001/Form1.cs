@@ -26,7 +26,6 @@ namespace ArduinoMonitor_ver001
         {
             InitializeComponent();
             InitializeSerialComponent();
-            PianoMonitor = new Form2(this);
         }
 
 
@@ -93,6 +92,7 @@ namespace ArduinoMonitor_ver001
 
                 label_serial_status.Text = "connected";
 
+                PianoMonitor = new Form2(this);
                 PianoMonitor.Show();
             }
 
