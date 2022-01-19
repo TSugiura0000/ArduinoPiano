@@ -292,54 +292,6 @@ namespace ArduinoMonitor_ver001
             msg = p.Name + " OFF";
             f1.Serial_send_msg(msg);
         }
-        public Panel GetPanel_C()
-        {
-            return panel_C;
-        }
-        public Panel GetPanel_Csharp()
-        {
-            return panel_Csharp;
-        }
-        public Panel GetPanel_D()
-        {
-            return panel_D;
-        }
-        public Panel GetPanel_Dsharp()
-        {
-            return panel_Dsharp;
-        }
-        public Panel GetPanel_E()
-        {
-            return panel_E;
-        }
-        public Panel GetPanel_F()
-        {
-            return panel_F;
-        }
-        public Panel GetPanel_Fsharp()
-        {
-            return panel_Fsharp;
-        }
-        public Panel GetPanel_G()
-        {
-            return panel_G;
-        }
-        public Panel GetPanel_Gsharp()
-        {
-            return panel_Gsharp;
-        }
-        public Panel GetPanel_A()
-        {
-            return panel_A;
-        }
-        public Panel GetPanel_Asharp()
-        {
-            return panel_Asharp;
-        }
-        public Panel GetPanel_B()
-        {
-            return panel_B;
-        }
         public Label GetLabel()
         {
             return label_check;
@@ -443,6 +395,11 @@ namespace ArduinoMonitor_ver001
             {
                 this.whitePanel_MouseUp(panel_B);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
