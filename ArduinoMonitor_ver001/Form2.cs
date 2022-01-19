@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Media;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -13,13 +14,28 @@ namespace ArduinoMonitor_ver001
 {
     public partial class Form2 : Form
     {
+        Panel[] panels = new Panel[12];
+
         Form1 f1;
         public Form2(Form1 f)
         {
             InitializeComponent();
             Form2_Resize();
             Panel_Resize();
+            Label_Resize();
             f1 = f;
+            panels[0] = panel_C;
+            panels[1] = panel_Csharp;
+            panels[2] = panel_D;
+            panels[3] = panel_Dsharp;
+            panels[4] = panel_E;
+            panels[5] = panel_F;
+            panels[6] = panel_Fsharp;
+            panels[7] = panel_G;
+            panels[8] = panel_Gsharp;
+            panels[9] = panel_A;
+            panels[10] = panel_Asharp;
+            panels[11] = panel_B;
         }
         private void Form2_SizeChanged_1(object sender, EventArgs e)
         {
@@ -151,7 +167,10 @@ namespace ArduinoMonitor_ver001
                 panel_Board.Height * (panel_Board_vertical_divid - 5) / panel_Board_vertical_divid
                 );
         }
-
+        private void Label_Resize()
+        {
+            label_check.Location = new Point(0, 700);
+        }
 
         //各白鍵の反応
         private void panel_C_MouseDown(object sender, MouseEventArgs e)
@@ -292,54 +311,6 @@ namespace ArduinoMonitor_ver001
             msg = p.Name + " OFF";
             f1.Serial_send_msg(msg);
         }
-        public Panel GetPanel_C()
-        {
-            return panel_C;
-        }
-        public Panel GetPanel_Csharp()
-        {
-            return panel_Csharp;
-        }
-        public Panel GetPanel_D()
-        {
-            return panel_D;
-        }
-        public Panel GetPanel_Dsharp()
-        {
-            return panel_Dsharp;
-        }
-        public Panel GetPanel_E()
-        {
-            return panel_E;
-        }
-        public Panel GetPanel_F()
-        {
-            return panel_F;
-        }
-        public Panel GetPanel_Fsharp()
-        {
-            return panel_Fsharp;
-        }
-        public Panel GetPanel_G()
-        {
-            return panel_G;
-        }
-        public Panel GetPanel_Gsharp()
-        {
-            return panel_Gsharp;
-        }
-        public Panel GetPanel_A()
-        {
-            return panel_A;
-        }
-        public Panel GetPanel_Asharp()
-        {
-            return panel_Asharp;
-        }
-        public Panel GetPanel_B()
-        {
-            return panel_B;
-        }
         public Label GetLabel()
         {
             return label_check;
@@ -351,98 +322,188 @@ namespace ArduinoMonitor_ver001
             {
                 this.whitePanel_MouseDown(panel_C);
             }
-            if (label_check.Text == "C OFF\r")
+            else if (label_check.Text == "C OFF\r")
             {
                 this.whitePanel_MouseUp(panel_C);
             }
-            if (label_check.Text == "Csharp ON\r")
+            else if (label_check.Text == "Csharp ON\r")
             {
                 this.blackPanel_MouseDown(panel_Csharp);
             }
-            if (label_check.Text == "Csharp OFF\r")
+            else if (label_check.Text == "Csharp OFF\r")
             {
                 this.blackPanel_MouseUp(panel_Csharp);
             }
-            if (label_check.Text == "D ON\r")
+            else if (label_check.Text == "D ON\r")
             {
                 this.whitePanel_MouseDown(panel_D);
             }
-            if (label_check.Text == "D OFF\r")
+            else if (label_check.Text == "D OFF\r")
             {
                 this.whitePanel_MouseUp(panel_D);
             }
-            if (label_check.Text == "Dsharp ON\r")
+            else if (label_check.Text == "Dsharp ON\r")
             {
                 this.blackPanel_MouseDown(panel_Dsharp);
             }
-            if (label_check.Text == "Dsharp OFF\r")
+            else if (label_check.Text == "Dsharp OFF\r")
             {
                 this.blackPanel_MouseUp(panel_Dsharp);
             }
-            if (label_check.Text == "E ON\r")
+            else if (label_check.Text == "E ON\r")
             {
                 this.whitePanel_MouseDown(panel_E);
             }
-            if (label_check.Text == "E OFF\r")
+            else if (label_check.Text == "E OFF\r")
             {
                 this.whitePanel_MouseUp(panel_E);
             }
-            if (label_check.Text == "F ON\r")
+            else if (label_check.Text == "F ON\r")
             {
                 this.whitePanel_MouseDown(panel_F);
             }
-            if (label_check.Text == "F OFF\r")
+            else if (label_check.Text == "F OFF\r")
             {
                 this.whitePanel_MouseUp(panel_F);
             }
-            if (label_check.Text == "Fsharp ON\r")
+            else if (label_check.Text == "Fsharp ON\r")
             {
                 this.blackPanel_MouseDown(panel_Fsharp);
             }
-            if (label_check.Text == "Fsharp OFF\r")
+            else if (label_check.Text == "Fsharp OFF\r")
             {
                 this.blackPanel_MouseUp(panel_Fsharp);
             }
-            if (label_check.Text == "G ON\r")
+            else if (label_check.Text == "G ON\r")
             {
                 this.whitePanel_MouseDown(panel_G);
             }
-            if (label_check.Text == "G OFF\r")
+            else if (label_check.Text == "G OFF\r")
             {
                 this.whitePanel_MouseUp(panel_G);
             }
-            if (label_check.Text == "Gsharp ON\r")
+            else if (label_check.Text == "Gsharp ON\r")
             {
                 this.blackPanel_MouseDown(panel_Gsharp);
             }
-            if (label_check.Text == "Gsharp OFF\r")
+            else if (label_check.Text == "Gsharp OFF\r")
             {
                 this.blackPanel_MouseUp(panel_Gsharp);
             }
-            if (label_check.Text == "A ON\r")
+            else if (label_check.Text == "A ON\r")
             {
                 this.whitePanel_MouseDown(panel_A);
             }
-            if (label_check.Text == "A OFF\r")
+            else if (label_check.Text == "A OFF\r")
             {
                 this.whitePanel_MouseUp(panel_A);
             }
-            if (label_check.Text == "Asharp ON\r")
+            else if (label_check.Text == "Asharp ON\r")
             {
                 this.blackPanel_MouseDown(panel_Asharp);
             }
-            if (label_check.Text == "Asharp OFF\r")
+            else if (label_check.Text == "Asharp OFF\r")
             {
                 this.blackPanel_MouseUp(panel_Asharp);
             }
-            if (label_check.Text == "B ON\r")
+            else if (label_check.Text == "B ON\r")
             {
                 this.whitePanel_MouseDown(panel_B);
             }
-            if (label_check.Text == "B OFF\r")
+            else if (label_check.Text == "B OFF\r")
             {
                 this.whitePanel_MouseUp(panel_B);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Play(panels);
+        }
+        
+        private void Play(Panel[] panels)
+        {
+            Task task1 = Task.Run(() =>
+            {
+                string tmp_old = "";
+                for (int i = 0; i < kirakiraboshi.Length; i++)
+                {
+                    string tmp = Panel_sign(panels[kirakiraboshi[i]]);
+                    Thread.Sleep(100);
+                    if (tmp != label_check.Text || tmp_old == tmp)
+                    {
+                        i--;
+                        tmp_old = "";
+                        continue;
+                    }
+                    tmp_old = label_check.Text;
+                }
+            });
+        }
+        private string Panel_sign(Panel p)
+        {
+            string str;
+            p.BackColor = Color.Yellow;
+            if (p == panels[0])
+            {
+                str = "C OFF\r";
+            }
+            else if (p == panels[1])
+            {
+                str = "Csharp OFF\r";
+            }
+            else if (p == panels[2])
+            {
+                str = "D OFF\r";
+            }
+            else if (p == panels[3])
+            {
+                str = "Dsharp OFF\r";
+            }
+            else if (p == panels[4])
+            {
+                str = "E OFF\r";
+            }
+            else if (p == panels[5])
+            {
+                str = "F OFF\r";
+            }
+            else if (p == panels[6])
+            {
+                str = "Fsharp OFF\r";
+            }
+            else if (p == panels[7])
+            {
+                str = "G OFF\r";
+            }
+            else if (p == panels[8])
+            {
+                str = "Gsharp OFF\r";
+            }
+            else if (p == panels[9])
+            {
+                str = "A OFF\r";
+            }
+            else if (p == panels[10])
+            {
+                str = "Asharp OFF\r";
+            }
+            else if (p == panels[11])
+            {
+                str = "B OFF\r";
+            }
+            else
+            {
+                str = "";
+            }
+            return str;
+        }
+
+        int[] kirakiraboshi = new int[]
+        {
+            0, 0, 7, 7, 9, 9, 7, 5, 5, 4, 4, 2, 2, 0,
+            7, 7, 5, 5, 4, 4, 2, 7, 7, 5, 5, 4, 4, 2,
+            0, 0, 7, 7, 9, 9, 7, 5, 5, 4, 4, 2, 2, 0
+        };
     }
 }
