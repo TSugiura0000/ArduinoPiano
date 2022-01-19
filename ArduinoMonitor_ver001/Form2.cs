@@ -357,11 +357,11 @@ namespace ArduinoMonitor_ver001
             }
             if (label_check.Text == "Csharp ON\r")
             {
-                this.whitePanel_MouseDown(panel_Csharp);
+                this.blackPanel_MouseDown(panel_Csharp);
             }
             if (label_check.Text == "Csharp OFF\r")
             {
-                this.whitePanel_MouseUp(panel_Csharp);
+                this.blackPanel_MouseUp(panel_Csharp);
             }
             if (label_check.Text == "D ON\r")
             {
@@ -373,11 +373,11 @@ namespace ArduinoMonitor_ver001
             }
             if (label_check.Text == "Dsharp ON\r")
             {
-                this.whitePanel_MouseDown(panel_Dsharp);
+                this.blackPanel_MouseDown(panel_Dsharp);
             }
             if (label_check.Text == "Dsharp OFF\r")
             {
-                this.whitePanel_MouseUp(panel_Dsharp);
+                this.blackPanel_MouseUp(panel_Dsharp);
             }
             if (label_check.Text == "E ON\r")
             {
@@ -397,11 +397,11 @@ namespace ArduinoMonitor_ver001
             }
             if (label_check.Text == "Fsharp ON\r")
             {
-                this.whitePanel_MouseDown(panel_Fsharp);
+                this.blackPanel_MouseDown(panel_Fsharp);
             }
             if (label_check.Text == "Fsharp OFF\r")
             {
-                this.whitePanel_MouseUp(panel_Fsharp);
+                this.blackPanel_MouseUp(panel_Fsharp);
             }
             if (label_check.Text == "G ON\r")
             {
@@ -413,11 +413,11 @@ namespace ArduinoMonitor_ver001
             }
             if (label_check.Text == "Gsharp ON\r")
             {
-                this.whitePanel_MouseDown(panel_Gsharp);
+                this.blackPanel_MouseDown(panel_Gsharp);
             }
             if (label_check.Text == "Gsharp OFF\r")
             {
-                this.whitePanel_MouseUp(panel_Gsharp);
+                this.blackPanel_MouseUp(panel_Gsharp);
             }
             if (label_check.Text == "A ON\r")
             {
@@ -429,11 +429,11 @@ namespace ArduinoMonitor_ver001
             }
             if (label_check.Text == "Asharp ON\r")
             {
-                this.whitePanel_MouseDown(panel_Asharp);
+                this.blackPanel_MouseDown(panel_Asharp);
             }
             if (label_check.Text == "Asharp OFF\r")
             {
-                this.whitePanel_MouseUp(panel_Asharp);
+                this.blackPanel_MouseUp(panel_Asharp);
             }
             if (label_check.Text == "B ON\r")
             {
