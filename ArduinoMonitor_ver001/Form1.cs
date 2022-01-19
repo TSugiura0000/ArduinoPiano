@@ -16,6 +16,8 @@ namespace ArduinoMonitor_ver001
 {
     public partial class Form1 : Form
     {
+        Form2 PianoMonitor;
+        Label label_check;
 
         private ManualResetEvent IsNotReading = new ManualResetEvent(true);
         String[] separator_newline = new String[] { "\r\n" };   // ArduinoはのSerial.println()は改行コードがCR+LFになっている
@@ -90,6 +92,10 @@ namespace ArduinoMonitor_ver001
                 button_send_msg.Enabled = true;
 
                 label_serial_status.Text = "connected";
+
+                PianoMonitor = new Form2(this);
+                label_check = PianoMonitor.GetLabel();
+                PianoMonitor.Show();
             }
 
         }
@@ -127,6 +133,7 @@ namespace ArduinoMonitor_ver001
                     BeginInvoke((MethodInvoker)(() =>	// Form内コンポーネントの更新を受信とは別スレッドで処理
                     {
                         textBox_rcv_msg.AppendText(data + "\r\n");
+                        label_check.Text = data;
                     }));
 
                     String[] splitted = data.Split(separator_newline, StringSplitOptions.RemoveEmptyEntries);   // 区切り文字で分割して空白を除去
@@ -183,7 +190,7 @@ namespace ArduinoMonitor_ver001
             }
         }
 
-        private void Serial_send_msg(string msg)
+        public void Serial_send_msg(string msg)
         {
             try
             {
