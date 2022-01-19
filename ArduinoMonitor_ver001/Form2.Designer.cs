@@ -74,9 +74,10 @@
             // label_check
             // 
             this.label_check.AutoSize = true;
-            this.label_check.Location = new System.Drawing.Point(3, 0);
+            this.label_check.Font = new System.Drawing.Font("MS UI Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label_check.Location = new System.Drawing.Point(0, 0);
             this.label_check.Name = "label_check";
-            this.label_check.Size = new System.Drawing.Size(35, 12);
+            this.label_check.Size = new System.Drawing.Size(31, 11);
             this.label_check.TabIndex = 1;
             this.label_check.Text = "label1";
             this.label_check.TextChanged += new System.EventHandler(this.label_check_TextChanged);
@@ -261,7 +262,7 @@
         private System.Windows.Forms.Panel panel_Fsharp;
         private System.Windows.Forms.Panel panel_Dsharp;
         private System.Windows.Forms.Panel panel_Csharp;
-        private System.Windows.Forms.Label label_check;
         private System.Windows.Forms.Button startButton;
+        private System.Windows.Forms.Label label_check;
     }
 }
